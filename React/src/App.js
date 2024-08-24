@@ -1,12 +1,14 @@
 // src/App.js
 
 import React from 'react';
-import HomePage from './Pages/Homepage';
+import Homepage from './Pages/Homepage';
+import TestAPI from './Pages/TestAPI';
 
 function App() {
   return (
     <div className="App">
-      <HomePage />
+      <Homepage />
+      {/* <TestAPI /> */}
     </div>
   );
 }

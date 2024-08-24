@@ -9,7 +9,7 @@ const HomePage = () => {
   return (
     <div className="min-h-screen flex flex-col bg-gray-800 text-white">
       <Header />
-      <main className="flex-grow container mx-auto px-4 py-8">
+      <main className="flex-grow container mx-auto px-4 py-8 mt-16">
         <section className="mb-12">
           <h1 className="text-4xl font-bold mb-4">Introduction</h1>
           <div className="flex flex-col md:flex-row items-center">
@@ -67,7 +67,7 @@ const HomePage = () => {
               We are developer team includes Nguyen, Vinh, Khanh . We focus on  JavaScript likes React, Next.js, Node.js. 
               We are developer team includes Nguyen, Vinh, Khanh . We focus on  JavaScript likes React, Next.js, Node.js. 
             </p>
-            <img src=" ./pictures/picture_1.jpg " alt="Profile" className="rounded-full w-64 h-64 object-cover" />
+            <img src="./src/img/picture_1.jpg" alt="Profile" className="rounded-full w-64 h-64 object-cover" />
           </div>
         </section>
         
