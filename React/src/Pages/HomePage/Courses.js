@@ -23,8 +23,8 @@ const Courses = () => {
     }
   ];
   return (
-    <Box sx={{ p: '10rem', backgroundColor: theme.palette.background.default }}>
-      <Typography variant="h2" sx={{ color: theme.palette.primary.main, mb: 4, fontSize: '2.5rem', fontWeight: 'bold' }}>
+    <Box sx={{ p: '10rem'}} backgroundColor ="#1a2022">
+      <Typography variant="h2" sx={{ color: "#d53f8c", mb: 4, fontSize: '2.5rem', fontWeight: 'bold' }}>
         Khóa học của mình
       </Typography>
       <Grid container spacing={5} justifyContent="center" alignItems="center">
