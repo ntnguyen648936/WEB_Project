@@ -5,7 +5,7 @@ import React from 'react';
 import { Grid, Typography, Box, Link } from '@mui/material';
 
 const Footer = () => (
-  <Box sx={{ pl: '10rem', pr: '10rem', pt: '3rem', pb: '5rem', backgroundColor: '#2d3748', color: 'white', mt: 1 }}>
+  <Box sx={{ pl: '10rem', pr: '10rem', pt: '3rem', pb: '5rem', backgroundColor: '#0F172A', color: 'white' }}>
     <Grid container spacing={5} justifyContent="space-between">
       <Grid item xs={12} sm={6} md={3}>
         <Typography variant="h6" sx={{ mb: 2, fontWeight: 'bold', fontSize: '1.25rem' }}>

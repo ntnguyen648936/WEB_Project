@@ -1,7 +1,15 @@
-//Courses.js
+// Course.js
+
 
 import React from 'react';
 import { Grid, Paper, Typography, Box, useTheme } from '@mui/material';
+
+
+
+
+///////////////////////////////////////////Courses Section//////////////////////////////////////////////////////////////////////////////////////
+
+
 
 const Courses = () => {
   const theme = useTheme(); 
@@ -22,8 +30,9 @@ const Courses = () => {
       description: "Khóa học ReactJs Super - Shopee Clone Typescript"
     }
   ];
+
   return (
-    <Box sx={{ p: '10rem'}} backgroundColor ="#1a2022">
+    <Box sx={{ p: '10rem', backgroundColor: '#0F172A' }}>  
       <Typography variant="h2" sx={{ color: "#d53f8c", mb: 4, fontSize: '2.5rem', fontWeight: 'bold' }}>
         Khóa học của mình
       </Typography>
@@ -33,26 +42,32 @@ const Courses = () => {
             <Paper
               sx={{
                 p: 2,
-                backgroundColor: theme.palette.grey[800],
+                backgroundColor:" #1e293b",  
                 borderRadius: 1,
-                color: theme.palette.text.primary,
+                color: '#fff', 
                 height: '100%',
                 display: 'flex',
                 flexDirection: 'column',
                 justifyContent: 'center',
                 textAlign: 'center',
+                transition: 'transform 0.3s ease-in-out',  
+                '&:hover': {
+                  transform: 'scale(1.05)', 
+                }
               }}
             >
               <Box
                 component="img"
                 src={course.image}
+                alt={course.title}
                 sx={{
                   width: '100%',
                   height: 'auto',
                   mb: 2,
+                  borderRadius: 1, 
                 }}
               />
-              <Typography variant="h6" sx={{ mb: 1 }}>
+              <Typography variant="h6" sx={{ mb: 1, color: '#d53f8c' }}>
                 {course.title}
               </Typography>
               <Typography>
