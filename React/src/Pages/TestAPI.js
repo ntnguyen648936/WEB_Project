@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Header from '../Components/Header';
 import Footer from '../Components/Footer';
-import '../Pages/Homepage.css'; 
+//import '../Pages/Homepage.css'; 
 import axios from 'axios';
 
 const TestAPI = () => {
